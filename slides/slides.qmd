@@ -4,7 +4,7 @@ subtitle: "BA New Media / Online Communication KF/BF A<br>Spring Term 2023"
 institute: "Johannes Gutenberg University Mainz"
 author: "Felix Dietrich"
 logo: img/logo.png
-bibliography: "bib/23-1-ccs.bib"
+bibliography: "bib/23-1-nmok.bib"
 csl: "bib/apa.csl"
 format: revealjs
 ---
@@ -262,6 +262,21 @@ advdate <- function(obj, adv) {
 :::big-text
 Any Questions?
 :::
+
+## Prepare for the next session
+
+To prepare for the next session, please read the paper by @vandenabeeleDigitalWellbeingDynamic2021. 
+
+<br><br>
+
+After you have finished reading, try to answer the following questions:
+
+- What is a good definition of digital well-being? How might this be associated
+with the concept of *autonomy*?
+- Take a look at the table on pp. 941-942. Do you understand what all of the
+described factors mean? If not, try to find out and write down what you have
+found. If you are still not sure, write this down as well and bring your
+questions to the next session. 
 
 
 # References
