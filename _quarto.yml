@@ -16,7 +16,7 @@ website:
           - href: "https://lms.uni-mainz.de"
             text: "Moodle"
           - href: "https://www.mediapsychology.ifp.uni-mainz.de/felix-dietrich/"
-            test: "Contact"
+            text: "Contact"
       - section: "Materials"
         contents:
           - href: "slides/slides.html"
