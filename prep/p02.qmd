@@ -1,0 +1,42 @@
+---
+title: "Prep for Session 04"
+subtitle: "Computational Analysis of Communication — Spring Term 2023"
+author: "Felix Dietrich"
+categories:
+  - "CCS"
+  - "Exercise"
+  - "Data Science"
+csl: "../bib/apa-cv.csl"
+bibliography: "../bib/23-1-nmok.bib"
+suppress-bibliography: true
+link-citations: false
+---
+
+**Mandatory**
+
+To prepare for the next session, please read the following paper:
+
+@vandenabeeleDigitalWellbeingDynamic2021
+
+After you have finished reading, try to answer the following questions:
+
+- What is a good definition of digital well-being? How might this be associated
+with the concept of *autonomy*?
+- Take a look at the table on pp. 941-942. Do you understand what all of the
+described factors mean? If not, try to find out and write down what you have
+found. If you are still not sure, write this down as well and bring your
+questions to the next session. 
+
+**Supplementary**
+
+If you need more literature in this topic later on, you may find the following
+papers interesting as well:
+
+@meierComputermediatedCommunicationSocial2021
+
+@reineckePOPCWellbeingRisk2017
+
+@reineckeSelfregulationKeyBoundary2022
+
+@schneiderHowWhenMobile2021
+

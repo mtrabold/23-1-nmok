@@ -1,0 +1,266 @@
+/*-- scss:defaults --*/
+
+// fonts
+/* Garbata */ @font-face {
+    font-family: 'Garbata';
+    src: url('https://felix-dietrich.de/etc/fonts/garbata/garbata-regular.ttf') format('truetype');
+}
+
+/* Webfont: Reforma2018 Blanca */ @font-face {
+    font-family: 'Reforma2018';
+    src: url('https://felix-dietrich.de/etc/fonts/reforma/Reforma2018-Blanca.woff2') format('woff2'), /* /* Super Modern Browsers */
+         url('https://felix-dietrich.de/etc/fonts/reforma/Reforma2018-Blanca.woff') format('woff'), /* Modern Browsers */
+         url('https://felix-dietrich.de/etc/fonts/reforma/Reforma2018-Blanca.eot') format('woff'),
+         url('https://felix-dietrich.de/etc/fonts/reforma/Reforma2018-Blanca.ttf') format('truetype');	 /* Safari, Android, iOS */
+    font-style: normal;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+
+
+/* Webfont: Reforma2018 BlancaItalica */ @font-face {
+    font-family: 'Reforma2018';
+    src: url('https://felix-dietrich.de/etc/fonts/reforma/Reforma2018-BlancaItalica.woff2') format('woff2'), /* /* Super Modern Browsers */
+         url('https://felix-dietrich.de/etc/fonts/reforma/Reforma2018-BlancaItalica.woff') format('woff'), /* Modern Browsers */
+         url('https://felix-dietrich.de/etc/fonts/reforma/Reforma2018-BlancaItalica.eot') format('woff'),
+         url('https://felix-dietrich.de/etc/fonts/reforma/Reforma2018-BlancaItalica.ttf') format('truetype');     /* Safari, Android, iOS */
+    font-style: italic;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Reforma2018 Gris */ @font-face {
+    font-family: 'Reforma2018';
+    src: url('https://felix-dietrich.de/etc/fonts/reforma/Reforma2018-Gris.woff2') format('woff2'), /* /* Super Modern Browsers */
+         url('https://felix-dietrich.de/etc/fonts/reforma/Reforma2018-Gris.woff') format('woff'), /* Modern Browsers */
+         url('https://felix-dietrich.de/etc/fonts/reforma/Reforma2018-Gris.eot') format('woff'),
+         url('https://felix-dietrich.de/etc/fonts/reforma/Reforma2018-Gris.ttf') format('truetype');	 /* Safari, Android, iOS */
+    font-style: normal;
+    font-weight: 500;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Reforma2018 GrisItalica */ @font-face {
+    font-family: 'Reforma2018';
+    src: url('https://felix-dietrich.de/etc/fonts/reforma/Reforma2018-GrisItalica.woff2') format('woff2'), /* /* Super Modern Browsers */
+         url('https://felix-dietrich.de/etc/fonts/reforma/Reforma2018-GrisItalica.woff') format('woff'), /* Modern Browsers */
+         url('https://felix-dietrich.de/etc/fonts/reforma/Reforma2018-GrisItalica.eot') format('woff'),
+         url('https://felix-dietrich.de/etc/fonts/reforma/Reforma2018-GrisItalica.ttf') format('truetype');     /* Safari, Android, iOS */
+    font-style: italic;
+    font-weight: 500;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Reforma2018 Negra */ @font-face {
+    font-family: 'Reforma2018';
+    src: url('https://felix-dietrich.de/etc/fonts/reforma/Reforma2018-Negra.woff2') format('woff2'), /* /* Super Modern Browsers */
+         url('https://felix-dietrich.de/etc/fonts/reforma/Reforma2018-Negra.woff') format('woff'), /* Modern Browsers */
+         url('https://felix-dietrich.de/etc/fonts/reforma/Reforma2018-Negra.eot') format('woff'),
+         url('https://felix-dietrich.de/etc/fonts/reforma/Reforma2018-Negra.ttf') format('truetype');	 /* Safari, Android, iOS */
+    font-style: normal;
+    font-weight: 700;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Reforma2018 NegraItalica */ @font-face {
+    font-family: 'Reforma2018';
+    src: url('https://felix-dietrich.de/etc/fonts/reforma/Reforma2018-NegraItalica.woff2') format('woff2'), /* /* Super Modern Browsers */
+         url('https://felix-dietrich.de/etc/fonts/reforma/Reforma2018-NegraItalica.woff') format('woff'), /* Modern Browsers */
+         url('https://felix-dietrich.de/etc/fonts/reforma/Reforma2018-NegraItalica.eot') format('woff'),
+         url('https://felix-dietrich.de/etc/fonts/reforma/Reforma2018-NegraItalica.ttf') format('truetype');     /* Safari, Android, iOS */
+    font-style: italic;
+    font-weight: 700;
+    text-rendering: optimizeLegibility;
+}
+
+$font-family-sans-serif: "Reforma2018", sans-serif !default;
+$presentation-font-size-root: 24px !default;
+$presentation-line-height: 1.2;
+
+// colors
+$body-bg: #ffffff !default;
+$body-color: #3c3836 !default;
+$link-color: #fabd2f !default;
+$selection-bg: #fabd2f !default;
+$red: #cc241d;
+$green: #98971a;
+$yellow: #fabd2f;
+$blue: #458588;
+$purple: #b16286;
+$aqua: #689d6a;
+$gray: #a89984;
+$theme-orange: #fabd2f;
+
+// headings
+$presentation-heading-font: "Garbata", sans-serif !default;
+$presentation-heading-color: #3c3836 !default;
+$presentation-heading-text-transform: uppercase !default;
+
+// $presentation-title-slide-text-align: left !default;
+
+/*-- scss:rules --*/
+
+.reveal a {
+  line-height: 1.3em;
+}
+
+/*********************************************
+ * CALLOUT
+ *********************************************/
+
+.callout-icon-container {
+  height: 27px !important;
+  width: 27px !important;
+}
+
+.callout-icon::before {
+  background-size: 1.2rem 1.2rem !important;
+  margin-top: .6rem !important;
+}
+
+.callout-caption {
+  background-color: rgba(250, 189, 47, .4) !important;
+}
+
+.callout-tip {
+  border-left-color: #fabd2f !important;
+}
+
+.callout-caption p {
+  text-transform: uppercase;
+  font-family: Garbata;
+}
+
+.small-url {
+  font-size: .5em !important;
+}
+
+.reveal .footer {
+  z-index: 0 !important;
+}
+
+/*********************************************
+ * TABLES
+ *********************************************/
+
+.reveal table {
+  min-width: 100% !important;
+  border: none;
+  margin: 0;
+}
+
+caption {
+  font-style: italic !important;
+  font-weight: 300 !important;
+  margin-bottom: 10px !important;
+  text-align: left;
+}
+
+td {
+  border: none !important;
+  padding: 10px !important;
+}
+
+th {
+  border: none !important;
+  border-bottom: 2px solid $yellow !important;
+  padding: 10px !important;
+}
+
+colgroup {
+  display: none !important
+}
+
+/*********************************************
+ * FONTS
+ *********************************************/
+
+p, li, tb, td, .csl-entry {
+  font-weight: 300 !important;
+}
+
+/*********************************************
+ * LAYOUT
+ *********************************************/
+
+h2 {
+  margin-bottom: 30px !important;
+}
+
+/*********************************************
+ * MENU
+ *********************************************/
+
+.reveal .slide-menu-button .fa-bars::before {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(140, 131, 127)" class="bi bi-list" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/></svg>');
+}
+
+/*********************************************
+ * IMAGES
+ *********************************************/
+
+img {
+  max-width: 100% !important;
+  display: block;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.reveal .slide aside {
+  font-size: 0.5em !important;
+  display: flex !important;
+  bottom: -100px !important;
+  left: 0 !important;
+  color: #3c3836 !important;
+}
+
+.reveal .slide aside p {
+    padding-right: 20px;
+}
+
+.navigate-up .controls-arrow,
+.navigate-down .controls-arrow,
+.navigate-right .controls-arrow, 
+.navigate-left .controls-arrow {
+  font-size: 5px;
+  color: #3c3836;
+}
+
+.navigate-down {
+  bottom: 0 !important;
+}
+
+/* .reveal .footer {
+  top: 18px;
+}
+
+.reveal .slide-menu-button {
+  top: 8px;
+}
+
+.reveal .slide-logo {
+  top: 0;
+} */
+
+.big-text {
+  font-family: Garbata;
+  text-transform: uppercase;
+  font-size: 100px;
+  text-align: center;
+  margin-top: -30px;
+}
+
+blockquote {
+  color: #3c3836 !important;
+  border-left-color: #fabd2f !important;
+}
+
+.reveal .slide ul {
+  margin-left: 40px;
+}
+
+hr {
+  height: 2px;
+  border-width: 0px;
+  background-color: #fabd2f;
+}

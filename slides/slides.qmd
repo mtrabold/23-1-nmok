@@ -1,0 +1,268 @@
+---
+title: "What Constitutes Autonomy in Digital Communication?"
+subtitle: "BA New Media / Online Communication KF/BF A<br>Spring Term 2023"
+institute: "Johannes Gutenberg University Mainz"
+author: "Felix Dietrich"
+logo: img/logo.png
+bibliography: "bib/23-1-ccs.bib"
+csl: "bib/apa.csl"
+format: revealjs
+---
+
+```{r}
+#| include: false
+
+library(tidyverse)
+```
+
+
+# Welcome!
+
+**Welcome to this course!**
+
+-   You can navigate through the sessions horizontally and within the sessions vertically
+-   Use your arrow keys
+-   Use `M` to open the menu
+-   You can find the course website and all slides at <https://felixdidi.github.io/23-1-nmok/>
+-   Press `?` on your keyboard to learn more about how to navigate the slides!
+
+# Session 01: Introduction
+
+![](https://i.pinimg.com/originals/1a/12/ef/1a12ef2a290201ea1dd7ac495dbaacc4.gif)
+
+<br>
+
+:::callout-warning
+## Resources for this session
+<https://felixdidi.github.io/23-1-nmok/>
+:::
+
+***
+
+:::big-text
+Welcome!
+:::
+
+## Getting Started
+
+**What are the main questions to be answered in this session?**
+
+-   What is this course about?
+-   What will I learn?
+-   What will I (have to) do?
+
+. . .
+
+**Course Website**
+
+- Available at <https://felixdidi.github.io/23-1-nmok/>
+- Please read in detail after this session
+
+. . .
+
+**Course material**
+
+- Will be provided via the course website (and Moodle)
+- Please check if you have access to the Moodle platform
+- You should be added to the Moodle course automatically
+- If you do not have access by the end of this week, please write an email
+
+***
+
+## About
+
+::::columns
+:::column
+![](img/01_intro/fd.jpg){height="300px" style="border: 2px solid #fabd2f; margin-left: 0 !important; margin-top: -20px"}
+
+**About Felix**
+
+-   PhD-Student in Media Psychology<br>*JGU Mainz*
+-   Teaching and Research Associate<br>*JGU Mainz & Uni Mannheim*
+:::
+:::column
+
+**My research interests include:**
+
+-   Digital autonomy and well-being
+-   Affordances of digital media & human-AI interaction
+-   Media entertainment experiences
+-   Open & computational communication science
+
+:::fragment
+
+**What about you?**
+
+- What's your name?
+- What's your major/minor?
+- Prior experience in working with scientific literature on a specific topic (term papers, presentations, ...)?
+- Have you ever worked with GitHub before?
+:::
+:::
+::::
+
+***
+
+:::big-text
+Some Disclaimers
+:::
+
+***
+
+## {background-image="https://images.pexels.com/photos/159581/dictionary-reference-book-learning-meaning-159581.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"}
+
+:::big-text
+<p style="background-color:#fabd2f; border-radius:20px; padding:30px">Language will not be graded</p>
+:::
+
+***
+
+## {background-image="https://sm.ign.com/ign_pt/preview/w/westworld-/westworld-new-images-show-dolores-and-william-growing-closer_q81h.jpg"}
+
+## {background-image="https://sm.ign.com/ign_pt/preview/w/westworld-/westworld-new-images-show-dolores-and-william-growing-closer_q81h.jpg"}
+
+:::big-text
+<p style="background-color:#fabd2f; border-radius:20px; padding: 30px">The Westworld Dilemma</p>
+:::
+
+***
+
+### What Will I Learn?
+
+. . .
+
+**Expertise**
+
+- Expertise about topics and questions in research on digital well-being
+- Knowledge of the potentials and limitations of different theoretical approaches
+- Ability to apply the acquired knowledge to new research areas and develop your own specific research questions
+
+. . .
+
+**Methodological competence**
+
+- Independently deal with a broad and international literature base
+- Systematize and synthesize empirical evidence from different perspectives towards a specific topic such as digital autonomy
+- Independently and collaboratively work on a topic and present your results in a comprehensible manner
+
+. . .
+
+**Personal competence**
+
+- Develop problem-solving competences with regard to questions from the field of media psychology
+- Ability to structure, synthesize and transfer acquired knowledge
+- Confidence to tackle your own research-oriented tasks in the future
+
+***
+
+### What Will I Do?
+
+. . .
+
+**Live Sessions**
+
+- Weekly live sessions
+
+. . .
+
+**Reading Task**
+
+- Read the provided literature to prepare for a live session
+- Use the questions that are provided at the end of the previous session to guide your reading
+- You should be able to provide answers to these questions in class
+
+. . .
+
+**How to read, and how *not* to read?**
+
+- Don't read scientific literature like a novel
+- Start with Title, Abstract, Subheadings to get a first impression
+- If your are reading digitally, search for key words
+- Think about "What do I want from this text?"
+- Answer your own questions (I will also provide some)
+
+***
+
+### What Will I Do?
+
+**Exercises (not graded)**
+
+- You will sometimes be provided with practical exercises
+- These are intended to help you improve your competence with the learned topics
+- Must be submitted until the following Sunday night after the live session via Moodle
+
+. . .
+
+**Wiki Entry (Individual Submission, not graded)**
+
+- Collects entries about research on digital autonomy
+- Very broad range of research fields to cover
+
+. . .
+
+**Systematization & Synthesis (Group Project, partially graded)**
+
+- Collect, systematize and synthesize the heterogeneous research landscape on digital autonomy
+- Group presentation in class (not graded)
+- Group term paper (graded)
+
+. . .
+
+**Graded Performance ("Prüfungsleistung")**
+
+- To receive credit for this class, you must pass a "Prüfungsleistung"
+- A: Group Submission, B: Individual Submission, C: No Submission
+
+
+***
+
+### Course Overview (Part I)
+
+```{r set day, include=FALSE}
+first_day <- as.Date("2023-04-19")
+
+advdate <- function(obj, adv) {
+ day <- obj + 7*(adv-1)
+ day <- format(day, format = "%d.%m.%y")
+ zadv <- sprintf("%02d", adv)
+ return(day)
+}
+```
+
+*Weekly Sessions*
+
+| Date                         | Topic           |
+|----------------------------- |-----------------|
+|`r advdate(first_day, 1)`     |Introduction|
+|`r advdate(first_day, 2)`     |The Mobile Connectivity Paradox: Digital Wellbeing as a Dynamic Construct|
+|`r advdate(first_day, 3)`     |Autonomy as a Basic Psychological Need: The Framework of Self-Determination Theory|
+|`r advdate(first_day, 4)`     |Structuring a Heterogeneous Field: The Basics of Markdown and GitHub|
+|`r advdate(first_day, 5)`     |Wiki Project: What Constitutes Autonomy in Digital Communication?|
+|`r advdate(first_day, 6)`     |Wiki Project: What Constitutes Autonomy in Digital Communication?|
+|`r advdate(first_day, 7)`     |Wiki Project — No Class!|
+
+***
+
+### Course Overview (Part II)
+
+*Weekly Sessions*
+
+| Session                      | Topic           |
+|----------------------------- |-----------------|
+|`r advdate(first_day, 8)`     |Wiki Project — No class!|
+|`r advdate(first_day, 9)`     |Systematization: What Constitutes Autonomy in Digital Communication?|
+|`r advdate(first_day, 10)`    |Systematization: What Constitutes Autonomy in Digital Communication?|
+|`r advdate(first_day, 11)`    |Systematization: What Constitutes Autonomy in Digital Communication?|
+|`r advdate(first_day, 12)`    |Synthesis: SDT-focused Perspectives on Digital Autonomy and Their Contribution to the Field|
+|`r advdate(first_day, 13)`    |Synthesis: Other Perspectives on Digital Autonomy and Relation to SDT|
+|`r advdate(first_day, 14)`    |Concluding Thoughts & Evaluation|
+
+***
+
+:::big-text
+Any Questions?
+:::
+
+
+# References
+

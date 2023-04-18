@@ -1,0 +1,16 @@
+---
+title: "Exercise 01"
+subtitle: "BA New Media / Online Communication KF/BF A: Spring Term 2023"
+author: "Felix Dietrich"
+categories:
+  - "Media Psychology"
+  - "Digital Media"
+  - "Well Being"
+suppress-bibliography: true
+link-citations: false
+---
+
+**Familiarize yourself with the course**
+
+Please read the course website carefully and collect any question that may arise
+so that you can ask them in the next session.

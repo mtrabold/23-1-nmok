@@ -1,0 +1,16 @@
+transition: slide
+theme: felix_gruvbox.scss
+highlight-style: gruvbox
+menu:
+  side: "left"
+  width: wide
+  preview-links: true
+  controls: auto
+  titleSelector: "h1, h2"
+  use-text-content-for-missing-titles: false
+  hideMissingTitles: true
+navigation-mode: "vertical"
+# controls-layout: "bottom-right"
+center: true
+# slide-number: "c"
+# chalkboard: true

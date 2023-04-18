@@ -1,0 +1,127 @@
+---
+title: "What Constitutes Autonomy in Digital Communication?"
+subtitle: "BA New Media / Online Communication KF/BF A: Spring Term 2023"
+author: "Felix Dietrich"
+categories:
+  - "Media Psychology"
+  - "Digital Media"
+  - "Well Being"
+---
+
+## Schedule
+
+**Note**: Slides, exercises, and class preparation materials will be added and updated throughout the semester. Please check the course website regularly! 
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+
+library(gt)
+library(tidyverse)
+d <- readxl::read_xlsx("schedule.xlsx")
+```
+
+
+```{r}
+#| echo: false
+
+# code adjusted from
+# https://github.com/sta199-f22-1/sta199-f22-1.github.io/blob/main/index.qmd
+
+d |>
+  mutate(
+    date = as.Date(date),
+    week = ifelse(is.na(week), "", week)
+  ) |>
+  gt() |>
+  text_transform(cells_body(columns = c(prepare)),
+    fn = function(x) {
+      ifelse(is.na(x), fontawesome::fa("book", fill_opacity = 0.1),
+        glue::glue("<a href = {x}>{fontawesome::fa('book')}</a>")
+      )
+    }
+  ) |>
+  text_transform(cells_body(columns = c(slides)),
+    fn = function(x) {
+      ifelse(is.na(x), fontawesome::fa("laptop", fill_opacity = 0.1),
+        glue::glue("<a href={x} target='_blank'>{fontawesome::fa('laptop')}</a>")
+      )
+    }
+  ) |>
+  text_transform(cells_body(columns = c(exercise)),
+    fn = function(x) {
+      ifelse(is.na(x), fontawesome::fa("file-circle-check", fill_opacity = 0.1),
+        glue::glue("<a href = {x}>{fontawesome::fa('file-circle-check')}</a>")
+      )
+    }
+  ) |> 
+  fmt_date(date, date_style = 30) |>
+  sub_missing(columns = c(date, topic, `session type`), missing_text = "") |>
+  cols_align(
+    align = "center", 
+    columns = c(week, prepare, slides, exercise)
+    ) |>
+  cols_align(
+    align = "left", 
+    columns = c(date, topic, `session type`)
+    ) |>
+  tab_style(
+    style = cell_borders(
+      sides = "right",
+      color = "#3c3836",
+      style = "solid"
+    ),
+    locations = cells_body(
+      columns = c(date, topic, prepare, exercise)
+    )
+  ) |> 
+  cols_width(
+    "date" ~ px(75)
+  )
+```
+
+## What is it about?
+
+What is the role of digital media use for our psychological health and well-being? Although widely debated in academia and society at large, research findings on the effects of using digital communication technologies on users’ psychological well-being are rather ambiguous, because digital media use can both harm and contribute to it. Recently, these conflicting forces emerging from digital communication and constant mobile connectedness have been described as the “mobile connectivity paradox”, suggesting that digital communication can both empower individuals by providing new avenues for self-determined behavior and impede personal freedom through social expectations and connectedness pressure. Consequently, “digital autonomy”, that is, the individual ability to use digital media in a self-determined way, has been proposed as a key determinant of the effects of digital communication on well-being. In this seminar, we will discuss existing approaches to digital autonomy and the need for better theoretical integration of various perspectives on the topic. In interactive sessions, you will learn how to efficiently and interactively map a diverse research landscape. Through this, you will be able to extract information that can be useful for both research and practice. 
+
+## What will I learn?
+
+**Expertise:**
+
+After the course, you will be aware of typical topics and questions in research on digital well-being; you will know the potentials and limitations of different theoretical approaches; you will be able to apply the acquired knowledge to new research areas and develop your own specific research questions.
+
+**Methodological competence:**
+
+You will be able to independently deal with a broad and international literature base; you will be able to systematize and synthesize empirical evidence from different perspectives towards a specific topic such as digital autonomy; you will be able to independently and collaboratively work on a topic and present your results in a comprehensible manner.
+
+**Personal competence:**
+
+The course supports you in developing problem-solving competences with regard to questions from the field of media psychology. Throughout the semester, your ability to structure, synthesize and transfer the acquired knowledge is promoted and you will be confident to tackle your own research-oriented tasks in the future.
+
+## What will I do?
+
+The class will be conduct through weekly live sessions. Lectures will *not* be streamed and will not be recorded. Most course materials will be provided through this course website. However, all students participating in the class need to also have access to the virtual learning space on the [Moodle platform](https://lms.uni-mainz.de), because confidential class materials might be provided/shared via Moodle and exercises have to be submitted there.
+
+**Regular Performance:**
+
+All students wishing to receive credit for the class are obliged to engage in the following types of regular performance. These tasks will not be graded. However: If you fail to engage in these tasks, you cannot pass the class.
+
+- *Prepare for the live sessions:* To prepare for a live session, please refer to the "prepare" column in the course overview. For example, you may be required to read some literature, and/or you will be provided with a few questions. You should be able to provide an answer to these questions in class. Preparation material may be added throughout the semester, so please check the course website regularly and in time before the next session.
+
+- *Exercises:* To practice your competence with the topics that are covered in this class, you will sometimes be provided with practical exercises at the end of a lesson (see also the "exercise" column in the course overview). These exercises have to be submitted by all students until the following Sunday night via Moodle.
+
+- *Wiki Entry (Individual Submission):* In sessions 5-8, we will collaboratively work on a wiki that collects entries about research on digital autonomy. Specifically, we will cover a broad range of research areas from digital media use to digital power structures. Each student must commit one wiki entry to the shared repository on GitHub no later than June 11.
+
+- *Systematization & Synthesis (Group Project):* In sessions 9-13, we will work together on collecting, systematizing and synthesizing the heterogeneous research landscape on digital autonomy. Each student needs to participate in this group project as well as the presentation of the results in class.
+
+
+**Graded Performance:**
+
+To receive a grade for this class, you must submit a written term paper (~ 10-12 pages) as part of the Systematization & Synthesis Group Project.
+
+- *A: Group Submission:* The term paper can be submitted by the entire group and will be graded as a group project.
+
+- *B: Individual Submission:* If you prefer an individual grade, you have to highlight individual contributions within the paper.
+
+- *C: No Submission:* Students who study Publizistik as a minor subject ("Beifach") can decide whether they want to write the term paper for this course or in the Media Use Research seminar. Exchange students may also not need to receive a grade. In both cases, please communicate this as soon as possible so that we can plan accordingly.
