@@ -1,0 +1,38 @@
+---
+title: "Prep for Session 03"
+subtitle: "BA New Media / Online Communication KF/BF A: Spring Term 2023"
+author: "Felix Dietrich"
+categories:
+  - "Media Psychology"
+  - "Digital Media"
+  - "Well Being"
+csl: "../bib/apa-cv.csl"
+bibliography: "../bib/23-1-nmok.bib"
+suppress-bibliography: true
+link-citations: false
+---
+
+**Mandatory**
+
+To prepare for the next session, please read the following paper:
+
+@vansteenkisteBasicPsychologicalNeeds2023
+
+After you have finished reading, try to answer the following questions:
+
+- How can we define autonomy need experiences?
+- How do the key criteria of BPNT described within the chapter relate to digital media use? What might be implications for studying digital autonomy?
+- Can you think of examples that are similar to the empirical studies described in the chapter, but relate to digital media use?
+- Did you find anything odd while reading the chapter? Can you identify aspects that might be worthy of critique? 
+
+**Supplementary**
+
+If you need more literature on this topic later on, you may find the following
+papers interesting as well:
+
+@arvanitisPhilosophicalPerspectivesAutonomy2023
+
+@deciSupportAutonomyControl1987
+
+@deciHumanAutonomy1995
+

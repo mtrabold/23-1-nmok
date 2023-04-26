@@ -22,7 +22,6 @@ library(tidyverse)
 d <- readxl::read_xlsx("schedule.xlsx")
 ```
 
-
 ```{r}
 #| echo: false
 
@@ -37,22 +36,22 @@ d |>
   gt() |>
   text_transform(cells_body(columns = c(prepare)),
     fn = function(x) {
-      ifelse(is.na(x), fontawesome::fa("book", fill_opacity = 0.1),
-        glue::glue("<a href = {x}>{fontawesome::fa('book')}</a>")
+      ifelse(is.na(x), "<a style='opacity: 0.1;'>{{< fa solid book >}}</a>",
+        str_c("<a href =", x, ">{{< fa solid book >}}</a>")
       )
     }
   ) |>
   text_transform(cells_body(columns = c(slides)),
     fn = function(x) {
-      ifelse(is.na(x), fontawesome::fa("laptop", fill_opacity = 0.1),
-        glue::glue("<a href={x} target='_blank'>{fontawesome::fa('laptop')}</a>")
+      ifelse(is.na(x), "<a style='opacity: 0.1;'>{{< fa solid laptop >}}</a>",
+        str_c("<a href =", x, ">{{< fa solid laptop >}}</a>")
       )
     }
   ) |>
   text_transform(cells_body(columns = c(exercise)),
     fn = function(x) {
-      ifelse(is.na(x), fontawesome::fa("file-circle-check", fill_opacity = 0.1),
-        glue::glue("<a href = {x}>{fontawesome::fa('file-circle-check')}</a>")
+      ifelse(is.na(x), "<a style='opacity: 0.1;'>{{< fa solid file-circle-check >}}</a>",
+        str_c("<a href =", x, ">{{< fa solid file-circle-check >}}</a>")
       )
     }
   ) |> 
