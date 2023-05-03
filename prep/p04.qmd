@@ -1,0 +1,17 @@
+---
+title: "Prep for Session 04"
+subtitle: "BA New Media / Online Communication KF/BF A: Spring Term 2023"
+author: "Felix Dietrich"
+categories:
+  - "Media Psychology"
+  - "Digital Media"
+  - "Well Being"
+csl: "../bib/apa-cv.csl"
+bibliography: "../bib/23-1-nmok.bib"
+suppress-bibliography: true
+link-citations: false
+---
+
+**Mandatory**
+
+To prepare for the next session, please go to <https://github.com> and create a new user account (if you do not have one already) so that you can follow along and participate in next week's exercise! 
