@@ -1,0 +1,48 @@
+---
+title: "Exercise 04"
+subtitle: "BA New Media / Online Communication KF/BF A: Spring Term 2023"
+author: "Felix Dietrich"
+categories:
+  - "Media Psychology"
+  - "Digital Media"
+  - "Well Being"
+csl: "../bib/apa.csl"
+bibliography: "../bib/23-1-nmok.bib"
+suppress-bibliography: true
+link-citations: false
+---
+
+## The basics of Markdown
+
+Check out the following resources:
+
+1. <https://quarto.org/docs/authoring/markdown-basics.html>
+2. <https://quarto.org/docs/authoring/tables.html>
+3. <https://quarto.org/docs/authoring/figures.html>
+4. <https://quarto.org/docs/authoring/footnotes-and-citations.html>
+
+Download the template located in the main repository under `exercises/templates/exercise04.qmd` and open it in a text editor of your choice.
+
+Create a short summary of the text about Digital Well-Being by @vandenabeeleDigitalWellbeingDynamic2021 which you have already read for a previous session. Please follow these steps:
+
+- Give the document a meaningful title (this is treated as a level 1 heading) and add your name as author
+- Add level two headings to create the following structure: Main Argument, Relevant Quote, Personal Interest
+- Highlight some important aspects in **bold** or *italics*
+- Insert one relevant quote from @vandenabeeleDigitalWellbeingDynamic2021 and cite it properly
+
+## The basics of Git(Hub)
+
+1. Log in to GitHub
+2. Open the class repository at <https://github.com/felixdidi/23-1-nmok>
+3. Create a new fork of the repository by clicking the "Fork" button at the top right
+4. Navigate to the folder `wiki/topic_assignment` and download the file `topic_assignment.qmd`
+5. Rename the file to your matriculation number (e.g., `123456.qmd`) and open it in a text editor of your choice
+6. Remove all topics except for your preferred topic for the wiki project into the file and save it
+7. Upload the updated file into *your fork* of the repository on GitHub
+8. Go to the main page of your fork on GitHub and click "Compare & pull request" at the top (if GitHub tells you that your fork is behind the main branch, try to synchronize it first)
+9. Check the comparison — if there are no conflicts, it should say "Able to merge"
+10. Add a meaningful description to the pull request and send it
+11. Check back later if any comments were made about your request — if there is nothing to change, it will be merged into the main 
+
+
+

@@ -11,7 +11,7 @@ website:
     contents:
       - section: "Course Information"
         contents:
-          - href: index.qmd
+          - href: "index.qmd"
             text: "Overview"
           - href: "https://lms.uni-mainz.de"
             text: "Moodle"
@@ -21,6 +21,10 @@ website:
         contents:
           - href: "slides/slides.html"
             text: "Slides"
+      - section: "Collaborative Wiki"
+        contents:
+          - href: "wiki/info.qmd"
+            text: "Wiki Overview"
 
 format:
   html:

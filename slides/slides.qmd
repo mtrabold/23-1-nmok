@@ -7,6 +7,7 @@ logo: img/logo.png
 bibliography: "bib/23-1-nmok.bib"
 csl: "bib/apa.csl"
 format: revealjs
+css: fonts.css
 ---
 
 ```{r}
@@ -614,6 +615,43 @@ Any Questions?
 ## Prepare for the next session
 
 To prepare for the next session, please go to <https://github.com> and create a new user account (if you do not have one already) so that you can follow along and participate in next week's exercise! 
+
+
+# Session 04: Structuring a Heterogeneous Field — The Basics of Markdown and GitHub
+
+![](https://imgs.xkcd.com/comics/git_commit.png)
+
+<br>
+
+:::callout-warning
+## Resources for this session
+<https://quarto.org>
+:::
+
+***
+
+:::big-text
+What is the plan for the next weeks?
+:::
+
+***
+
+:::big-text
+Why use GitHub?
+:::
+
+*** 
+
+:::big-text
+Markdown Exercise
+:::
+
+***
+
+:::big-text
+Github Intro
+:::
+
 
 
 # References
