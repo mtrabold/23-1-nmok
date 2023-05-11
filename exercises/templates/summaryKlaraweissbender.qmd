@@ -1,0 +1,25 @@
+---
+title: "Exercise 04 Template"
+subtitle: "BA New Media / Online Communication KF/BF A: Spring Term 2023"
+author: Klara Weißbender 
+categories:
+  - "Media Psychology"
+  - "Digital Media"
+  - "Well Being"
+---
+
+#Summary of the text Digital Well-Being by Vanden Abeele 
+author: Klara Weißbender
+
+## Main Argument 
+Vanden Abeele describes digital wellbeing as something that is a **subjective individual experience** of the positive and negative sides of mobile connectivity.People can experience digital wellbeing when they are using social media or any sort of digital application in a controlled way or at least with a minimal loss of control.The state of digital wellbeing includes affective appraisal just as cognitive appraisal and is closely connected to digital connectivity. This digital connectivity is integrated into our daily life through the emerge of smartphones and social media. But this overall dominating digital connectivity is also tied to a lot of struggles and includes also the question when to connect and to disconnect. The concept of digital wellbeing tries to provide a solution to these problems and questions. 
+
+
+## Relevant Quote 
+"Digital wellbeing is a **subjective individual experience** of optimal balance between the benefits and drawbacks obtained from mobile connectivity"[see @vandenabeele2021, p. 938]
+
+
+## Personal Interest 
+The concept of digital wellbeing is really important especially in our times. Vanden Abeele tries to close the gap between the drawbacks and benefits of mobile connectivity by including them in one concept.It's the attempt to reduce the lack of balance that people experience in relation to mobile connectivity. 
+
+
