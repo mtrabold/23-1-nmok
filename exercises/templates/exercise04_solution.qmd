@@ -1,0 +1,23 @@
+---
+title: "Summary of Vanden Abeele et al (Exercise Solution)"
+author: "Text Name"
+bibliography: "vda.bib"
+csl: "https://www.zotero.org/styles/apa"
+---
+
+## Main Argument
+
+The topic of **digital autonomy** is *very* important!
+
+## Relevant Quote
+
+> "This model considers digital wellbeing an experiential state of optimal balance between connectivity and disconnectivity that is contingent upon a constellation of person-, device- and context-specific factors."
+>
+> [@vandenabeeleDigitalWellbeingDynamic2021, p. 932]
+
+## Personal Interest
+
+My Interest
+
+## References
+
