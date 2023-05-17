@@ -1,30 +1,9 @@
 ---
-
-Digital Wellbeing - an overview
-
-BA New Media / Online Communication KF/BF A: Spring Term 2023
-
+title: "Exercise 04 Template"
 subtitle: "BA New Media / Online Communication KF/BF A: Spring Term 2023"
-
-by Paula Frey
-
-
+author: "Your Name"
+categories:
+  - "Media Psychology"
+  - "Digital Media"
+  - "Well Being"
 ---
-
-
-# What does digital wellbeing mean?
-## Digital wellbeing refers to the state of optimal balance between **connectivity and disconnectivity** in online world. 
-It encompasses various aspects of wellbeing, such as physical, mental, and social wellbeing, in the context of digital environments.
-Vanden Abeele defines the concept of wellbeing as "subjective individual experience of optimal **balance between the benefits and
-drawnbacks obtained from mobile connectivity**. This experimental state is comprised of affective and cognitive appraisals of the
-integration of digital connectivity into ordinary life [...]." (Vanden Abeele 2021, p.938)
-
-# Why is digital wellbeing challenging?
-## In today's increasingly digitalized world, people are constantly connected and engaged with various digital devices, platforms, and online activities. 
-While these technologies offer numerous benefits and opportunities, they also present challenges and potential negative impacts on
-individuals' wellbeing. Issues such as **excessive screen time, social media comparison, cyberbullying, information overload, and
-digital addiction** have gained attention due to their adverse effects on individuals' health and happiness.
-
-# How to reach digital wellbeing?
-## Digital wellbeing recognizes the need for individuals to cultivate a healthy and balanced relationship with technology. 
-It involves developing conscious and mindful **digital habits, setting boundaries, and practicing self-regulation** to ensure that technology use enhances rather than detracts from wellbeing. This includes practices such as practicing digital detoxes, managing notifications,setting limits on screen time, and prioritizing offline activities and relationships.
