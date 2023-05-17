@@ -1,0 +1,66 @@
+---
+title: "Exercise 05"
+subtitle: "BA New Media / Online Communication KF/BF A: Spring Term 2023"
+author: "Felix Dietrich"
+categories:
+  - "Media Psychology"
+  - "Digital Media"
+  - "Well Being"
+csl: "../bib/apa.csl"
+bibliography: "../bib/23-1-nmok.bib"
+suppress-bibliography: true
+link-citations: false
+---
+
+## Start of the Wiki Project
+
+### Goal
+
+The goal of the wiki project is to create a collection of summaries about **empirical research** literature on digital autonomy. This collection will later be useful for systematizing and mapping the broad research landscape. 
+
+### How to get there
+
+The most important aspect of this exercise is to select a paper that is both **relevant** with regard to the research area that you have been assigned to as well as **a typical example** of research from this area. To achieve this...
+
+- **...do NOT randomly select one paper** that seems fitting and simply complete the exercise regarding that paper
+- **...gain an overview of the research area first** and then decide on one paper that can be considered a typical example of research from that field
+
+To gain this overview, you will need to read several papers. Here is some advice on how to do this:
+
+- Do not read the papers in full, but concentrate on the relevant aspects (check title, abstract, subheadings, and conclusion first)
+- Use your knowledge about working with scientific literature from the class "Reading scientific literature"
+- Use keywords from the topic model for your search
+- Try to expand your search by discovering and adding new search terms (try wildcards and synonyms; use boolean operators and quotation marks)
+- Use a combination of search tools (Databases, e.g., Communication Abstracts; Google Scholar; Backward Search / Forward Search)
+- Use the literature base collected by Felix (will be provided in Session 06)
+- Try to develop useful inclusion and exclusion criteria (i.e., how can you determine, optimally by just reading the abstract, if the paper is potentially relevant to you)
+
+### The wiki entry
+
+Once you have decided on one paper, start by answering the following KARQ-questions:
+
+- Select a (K) *Key Quote* from the article that provides a good summary of the article. The Key Quote should be a quote of one sentence and not a whole paragraph.
+- Describe in one paragraph what is the main (A) *Argument* of the article from which you have picked the Key Quote. Summarize in your own words the main theoretical argument expressed in this article. Here you do not use any direct citations.
+- Discuss the (R) *Relationship* between the argument in the study and the theoretical arguments put forward in the other articles that you have read from this research area.
+- Finally, formulate two (Q) *Questions* that originate from the findings of the presented research and arguments. For instance, think about issues that are not addressed in this particular literature or about what could be a relevant future research question based on the findings or limitations of the presented study.
+
+After you have finished the KARQ, add a summary of ~300 Words (+/-20) to your wiki entry that provides a bit more detail about the present study. Try to answer the following questions:
+- What are the theoretical mechanisms that are proposed to connect digital media use and autonomy need experiences?
+- To what extent does the study focus on individual perceptions of digital autonomy or autonomy need experiences that relate to digital media use?
+- How are (individual perceptions of) digital autonomy (or autonomy need experiences) and their relationship to digital media use studied empirically?
+
+### Getting started
+
+Use the template `wiki_entry.qmd` which can be found in the `wiki/` subfolder of the repository. Synchronize the current state from the base class repository to your fork to get access to this template.
+
+You can work on and commit changes to your own fork until next week if you want to, but do not create a new pull request yet. More info will follow in the next session.
+
+### Advice for working with .qmd files
+
+- It is important to save your entry with the file extension `.qmd` (*not* `.txt`, `.docx` or anything else!)
+- Make sure to save your file in the right place within the repository!
+- You can either use and IDE that is dedicated for editing such files (e.g., RStudio or Visual Studio Code)
+- If you do not have these programs installed, you can use a plain text editor (Notepad on Windows, TextEdit on MacOS)
+- Alternatively, you can edit the file right on GitHub by selecting the file and clicking "edit in place" or open it in "github.dev" (i.e., Visual Studio Code in the Browser)
+
+
