@@ -1,0 +1,29 @@
+---
+title: "Exercise 06"
+subtitle: "BA New Media / Online Communication KF/BF A: Spring Term 2023"
+author: "Felix Dietrich"
+categories:
+  - "Media Psychology"
+  - "Digital Media"
+  - "Well Being"
+csl: "../bib/apa.csl"
+bibliography: "../bib/23-1-nmok.bib"
+suppress-bibliography: true
+link-citations: false
+---
+
+## Further Instructions on the Wiki Project
+
+**For detailed instructions, please check update message on Moodle**
+
+The submission deadline for the wiki entry will be June 11. Please create a new pull request (like we have practiced before) no later than this day to add your individual entry to the `wiki` folder in the repo. Therefore, create a copy of the `wiki_entry_template.qmd` and give it a new, meaningful name (e.g., `main_title_of_your_paper.qmd`).
+
+I hope you have already started your literature search and gained a first overview about the research area which you have selected. I want to emphasise again that you are tasked to find a typical paper from this research area that connects the topic of your area (e.g., pedagogy) with digital media use AND autonomy need experiences.
+
+To give you some inspiration, you can find a (very large) collection of paper abstracts as well as links to the full papers at the following website:
+
+**Please check Moodle for the link to the abstracts**
+
+The abstracts collected on this page were the basis for the topic model which we have discussed before. Please note that the topic model creates the topic clusters computationally, meaning that not all abstracts within one category are necessarily a good fit to the topic or may not deal with the topic of interest at all. Furthermore, the topic clustering may have worked better for some topics than for others. Nevertheless, the collection can possibly help you to identify relevant papers or relevant terms which you can use as search terms for your further literature search. 
+
+Please note that I am using this collection for my own research. Therefore, there is more content on the page than you need. For your interest, simply access the collection of abstracts for your selected research area from the menu on the left (at the very bottom). For example, if you are working on the topic Digital Pedagogy, select "Digital Pedagogy Abstracts" from the menu on the left. As the website is used for a research project of mine which is work in progress and has not been published yet, please keep access to this website confidential for now.
