@@ -1,5 +1,5 @@
 ---
-title: "Conversations about the elections on Twitter: Towards a structural understanding of Twitter's relation with the political and the media field"
+title: “Social Autonomy and Heteronomy in the Age of ICT: The Digital Pharmakon and the (Dis)Empowerment of the General Intellect”
 subtitle: "BA New Media / Online Communication KF/BF A: Spring Term 2023"
 author: "Moritz Trabold"
 categories:
@@ -9,37 +9,34 @@ categories:
 ---
 
 ## K: Key Quote
-"In general, we can state that variations in symbolic capital (i.e. legitimation), which we define as the number of mentions and replies one receives, are related to the positions the agents hold as politician, media or citizen agent. In addition, the variance in conversation practices on Twitter is significantly related to the different user types. Below, we wrap up the main findings and elaborate upon future theoretical endeavours and the limitations of the study." (D´heer & Verdegem, 2014, p. 731)
+“that instead of tendentially autonomizing and empowering the multitude because of the increasing independence of the general intellect from capitalist control, in reality the general intellect appears to be the object of an intense process of proletarianization today that seems to disempower it and rob it of its autonomy, producing a regression of the collective intelligence of the general intellect that he refers to as a state of ‘systemic stupidity’” (Lemmens, 2015, p. 293)
 
 
 ## A: Argument
-The main argument of the text is that Twitter has become an important platform for political communication and its role in shaping the political and media fields should be studied from a structural perspective. The authors argue that the interactions on Twitter during the elections reflect broader power relations and structures in society, which can be studied through network analysis and discourse analysis.
-
-The main argument of the text is that Twitter has become an important platform for political communication and its role in the shaping of the political and media fields should be studied from a structural perspective. The authors argue that network and discourse analysis can be used to study how interactions on Twitter during the election reflect broader power relations and structures in society.
+The main argument of the text is that the introduction of information and communication technology (ICT) has led to a paradoxical situation where individuals have gained unprecedented access to information and social networks, but at the same time have become increasingly dependent on these technologies for their social and cognitive functioning, leading to a loss of autonomy and empowerment of the general intellect.
 
 
 ## R: Relationship
-This argument is in line with the general theoretical argument that social media platforms are not neutral platforms, but are shaped by and shape social structures and power relations. The authors also draw on theories of the public sphere and media ecology to argue that Twitter has become a new space for political discourse. However, its influence should be studied in relation to traditional media and other social structures.
+Under the aspect of "What constitutes autonomy in digital communication?" the text argues that autonomy in digital communication is defined by the ability to make informed, independent decisions about how to engage with and use ICT tools and platforms. This includes the ability to critically evaluate information, resist manipulation and external control, and maintain agency over one's own digital identity and social interactions.
 
-As a whole, the text highlights the importance of adopting a structural perspective in the study of the role of Twitter and other social media platforms in politics and the media. It also emphasises the need for interdisciplinary approaches combining communication, political science, sociology and other theories.
+The relationship between the two arguments is that the loss of autonomy and empowerment described in the main argument is caused by a lack of these skills and abilities, as individuals become increasingly reliant on corporate or governmental entities that control and manage their digital lives. The text contends that a renewed focus on developing autonomy in digital communication, including critical digital literacy and platform-independent communication tools, is necessary to counteract this trend.
 
 
 ## Q:
-1. Did the study take into account the potential impact of Twitter bots and fake accounts on the political conversations that took place during the elections?
-2. How do demographic characteristics of Twitter users, such as age or gender, influence how they engage in political conversation during elections?
+1.	In the context of the digital age, how do personal values and beliefs contribute to an individual's sense of autonomy in online communication?
+2.	How do power dynamics within online social groups affect an individual's ability to exercise autonomy in digital communication, and what steps can be taken to promote inclusivity and empower marginalized voices in these spaces?
 
 
 
 ## Summmary:
-The article "Conversations about the elections on Twitter: Towards a structural understanding of Twitter's relation with the political and the media field" by Evelien D'heer and Pieter Verdegem examines the use of Twitter in political conversations during the 2012 Belgian elections. The study aims to provide a structural understanding of Twitter's role in the political and media field.
+The article “Social Autonomy and Heteronomy in the Age of ICT: The Digital Pharmakon and the (Dis)Empowerment of the General Intellect” from Pieter Lemmens explores the concept of autonomy in digital communication by examining how the use of information and communication technologies (ICT) can both enable and limit individuals' agency.
 
-The study collected data from Twitter conversations that included the election-related hashtag 'vk2012'. The analysis showed that Twitter played an important role in shaping public discourse during the elections. Twitter conversations focused primarily on political news and the exchange of opinions, while the use of the platform for direct political interaction remained limited.
+Lemmens argues that the digital age has brought about a paradoxical situation in which individuals are both empowered and disempowered using ICT. On the one hand, ICT provides people with unprecedented access to knowledge and information, as well as new modes of communication and self-expression. This can lead to an increase in individual autonomy, as people are able to make more informed decisions and participate more fully in civic life.
 
-The study analysed 43,447 messages from 11,658 users. The missing demographics could have influenced conversations on Twitter by amplifying the voices of certain segments of society and limiting the representation of others.
+At the same time, however, the use of ICT can also result in a loss of autonomy as individuals become subject to new forms of surveillance, manipulation, and control. For example, social media platforms and search engines can generate filter bubbles and echo chambers that limit people's exposure to diverse viewpoints and reinforce existing biases. Additionally, the collection and exploitation of personal data by corporations and governments can undermine individual autonomy by denying people the ability to control how their information is used.
 
-The study also identified the role of the media in shaping conversations on Twitter. Traditional media played a significant role in driving discussions on the platform, with journalists and news outlets being the most influential users. The authors examine the use of Twitter in political conversations during the 2012 Belgian elections. The study aims to provide a structural understanding of Twitter's role in the political and media field.
+Ultimately, Lemmens suggests that achieving true autonomy in the digital age requires embracing a philosophy of communication that recognizes the complex and dynamic nature of ICT use. This philosophy must acknowledge the potential for both empowerment and disempowerment inherent in digital communication, while also recognizing the need for greater accountability and transparency in the use of ICT. By doing so, individuals can work to mitigate the negative effects of ICT and cultivate a more robust and inclusive public sphere.
 
-The study also identified the role of the media in shaping conversations on Twitter. Traditional media played a significant role in driving discussions on the platform, with journalists and news outlets being the most influential users.
+Overall, Lemmens' article challenges readers to consider the multifaceted nature of autonomy in digital communication, and to think critically about the ways in which ICT can either empower or constrain individuals' agency.
 
-The authors argue that Twitter's role in political conversations cannot be seen in isolation from the broader media system and the power dynamics that shape it. They suggest that a more nuanced understanding of the intersection of social media, traditional media and politics is needed to understand Twitter's role in shaping public discourse.
 
